@@ -1,0 +1,180 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "name": "Marvel's Spiderman 2",
+      "price": 879000,
+      "genre": "Superhero",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1301/5d25e0f94381cf0ff438942642119548f0d6659486f7b75e.png",
+      "description": "Peter Parker dan Miles Morales kembali untuk petualangan ayunan jaring yang mendebarkan. Hadapi penjahat baru, Venom, yang mengancam kota New York.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-id/games/marvels-spider-man-2/"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2651280/Marvels_SpiderMan_2/"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Cyberpunk 2077",
+      "price": 699000,
+      "genre": "Action RPG",
+      "image": "https://cdn1.epicgames.com/offer/77f2b98e2cef40c8a7437518bf420e47/EGS_Cyberpunk2077_CDPROJEKTRED_S2_03_1200x1600-b1847981214ac013383111fc457eb9c5",
+      "description": "Jelajahi Night City, sebuah kota metropolis masa depan yang terobsesi dengan kekuasaan, glamor, dan modifikasi tubuh. Bermain sebagai V, seorang tentara bayaran.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-id/games/cyberpunk-2077/"
+        },
+        {
+          "name": "Xbox",
+          "url": "https://www.xbox.com/en-US/games/store/cyberpunk-2077/bx3m8l83bbrw"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Persona 3 Reload",
+      "price": 779000,
+      "genre": "JRPG",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202307/2601/85487475426de191c3c100b47ddc61f77c515b513948272e.png",
+      "description": "Selami kembali dunia Persona 3 dengan grafis yang diperbarui, fitur-fitur modern, dan pengalaman yang lebih mendalam. Pimpin tim SEES dan hadapi Dark Hour.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-id/games/persona-3-reload/"
+        },
+        {
+          "name": "Xbox",
+          "url": "https://www.xbox.com/id-ID/games/store/persona-3-reload/9NKK6Z0K3RH2"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2161700/Persona_3_Reload/"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Metaphor: ReFantazio",
+      "price": 799000,
+      "genre": "RPG",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202405/2406/0a5a11fd9af1818f9d31b650f578cb83fd808575def4b38a.png",
+      "description": "Dari para kreator seri Persona, datanglah RPG fantasi baru. Hadapi kegelisahanmu, jalin ikatan dengan teman, dan masuki dunia fantasi yang tak terlupakan.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-us/games/metaphor-refantazio/"
+        },
+        {
+          "name": "Xbox",
+          "url": "https://www.xbox.com/id-id/games/store/metaphor-refantazio/9n5dv8310xp7"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Persona 5 Royal",
+      "price": 799000,
+      "genre": "JRPG",
+      "image": "https://m.media-amazon.com/images/I/81nXeU70dGL.jpg",
+      "description": "Versi penyempurnaan dari JRPG Persona 5 tahun 2016, yang menampilkan karakter, alur cerita, lokasi, dan mekanisme permainan baru. Pemain berperan sebagai siswa sekolah menengah yang bekerja sambilan sebagai Pencuri Hantu, melawan keinginan korup orang dewasa dengan mencuri harta karun mereka di Metaverse. Permainan ini menawarkan perpaduan simulasi sosial dan pertarungan berbasis giliran, dengan fokus pada membangun hubungan dan mengeksplorasi kedalaman psikologis karakternya.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-id/games/persona-5-royal/"
+        },
+        {
+          "name": "Xbox",
+          "url": "https://www.xbox.com/id-ID/games/store/persona-5-royal/9nzdhxl9sjj8"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/1687950/Persona_5_Royal/"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Red Dead Redemption 2",
+      "price": 499000,
+      "genre": "Open World",
+      "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png?w=440",
+      "description": "Game aksi petualangan dunia terbuka epik yang berlatar di Amerika tahun 1899, di kala senja Wild West. Pemain akan mengalami kisah Arthur Morgan, seorang penjahat dan anggota geng Van der Linde, saat mereka menjelajahi dunia di ambang modernisasi, menghadapi petugas hukum, geng saingan, dan kenyataan pahit dari lanskap yang berubah. Permainan ini dikenal karena dunianya yang mendalam, gameplay yang terperinci, dan narasi yang menarik tentang kesetiaan, penebusan, dan perjuangan untuk bertahan hidup.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-se/games/red-dead-redemption-2/"
+        },
+        {
+          "name": "Xbox",
+          "url": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+        },
+        {
+          "name": "Steam",
+          "url": "https://www.xbox.com/en-US/games/red-dead-redemption-2"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Ghost Of Tsushima",
+      "price": 599000,
+      "genre": "Samurai",
+      "image": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/b3iB2zf2xHj9shC0XDTULxND.png",
+      "description": "Sebagai seorang samurai bernama Jin Sakai, pemain harus mengesampingkan tradisi samurai untuk mengobarkan perang yang tidak konvensional demi kebebasan Tsushima. Jelajahi dunia terbuka yang luas dan indah, hadapi musuh dalam pertempuran pedang yang imersif, dan jadilah 'Hantu' yang ditakuti.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-id/games/ghost-of-tsushima/"
+        },
+        {
+          "name": "Steam",
+          "url": "https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Grand Theft Auto : VI",
+      "price": 1000000,
+      "genre": "Action,Open World",
+      "image": "https://cdn.antaranews.com/cache/1200x800/2025/01/03/rockstargames-website-wide-gtavi-banner-mobile.jpg.jpg",
+      "description": "Game aksi-petualangan yang akan datang yang berlatar di dunia terbuka Leonida, negara bagian fiksi berdasarkan Florida, dan kota ikoniknya, Vice City, yang terinspirasi oleh Miami. Game ini akan menampilkan pasangan kriminal, Lucia dan Jason, sebagai protagonis, yang menavigasi konspirasi di Leonida setelah perampokan yang gagal. GTA 6 diharapkan mengambil latar masa kini, dengan sentuhan satir pada media sosial, budaya influencer, dan penegakan hukum modern.",
+      "platforms": [
+        {
+          "name": "PlayStation",
+          "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin Rifqi",
+      "email": "admin@gmail.com",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "User Biasa",
+      "email": "user@gmail.com",
+      "password": "password123",
+      "role": "user"
+    }
+  ]
+}
