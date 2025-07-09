@@ -54,14 +54,14 @@
 <script setup>
 import { useCartStore } from '@/stores/cartStore.js';
 
-// 1. Import gambar dari folder assets
+
 import playstationLogo from '@/assets/playstation.png';
 import xboxLogo from '@/assets/xbox.png';
 import steamLogo from '@/assets/steam.png';
 
 const cartStore = useCartStore();
 
-// 2. Gunakan variabel hasil import di dalam objek platformLogos
+
 const platformLogos = {
   PlayStation: playstationLogo,
   Xbox: xboxLogo,
@@ -78,7 +78,7 @@ const formatPrice = (value) => {
 </script>
 
 <style scoped>
-/* Style tidak ada perubahan dari sebelumnya */
+
 .cart-view {
   padding: 2rem 0;
 }

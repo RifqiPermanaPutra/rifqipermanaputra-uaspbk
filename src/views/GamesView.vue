@@ -215,14 +215,14 @@ onMounted(() => {
 }
 
 .btn-edit {
-  color: #1e88e5; /* Biru */
+  color: #1e88e5; 
 }
 .btn-edit:hover {
   background-color: #e3f2fd;
 }
 
 .btn-delete {
-  color: #e53935; /* Merah */
+  color: #e53935; 
 }
 .btn-delete:hover {
   background-color: #ffebee;
@@ -239,7 +239,7 @@ onMounted(() => {
   color: #C62828;
 }
 
-/* STYLE UNTUK DIALOG/MODAL */
+
 .dialog-overlay {
   position: fixed;
   top: 0;

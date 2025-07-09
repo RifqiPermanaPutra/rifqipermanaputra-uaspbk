@@ -51,18 +51,18 @@ import { useGameStore } from '@/stores/gameStore.js';
 import { useCartStore } from '@/stores/cartStore.js';
 import { useRouter } from 'vue-router';
 
-// --- Inisialisasi Store dan Router ---
+
 const gameStore = useGameStore();
 const cartStore = useCartStore();
 const router = useRouter();
 
-// --- Logika Tombol ---
+
 const addToCartAndNavigate = (game) => {
   cartStore.addItem(game);
   router.push('/cart');
 };
 
-// --- Logika Slider ---
+
 const slides = ref([
   { image: 'https://image.api.playstation.com/vulcan/ap/rnd/202311/2812/ae84720b553c4ce943e9c342621b60f198beda0dbf533e21.jpg', alt: 'Game Sale', title: 'Selamat Datang di Informasi Seputar Game', subtitle: 'Temukan dan beli game favoritmu dengan harga terbaik.', buttonText: 'Lihat Katalog', link: '/katalog-pengguna' },
   { image: 'https://www.chromethemer.com/download/hd-wallpapers/ghost-of-tsushima-3840x2160.jpg', alt: 'New Games', title: 'Promo Game Terbaru', subtitle: 'Dapatkan diskon menarik untuk game-game pilihan.', buttonText: 'Lihat Promo', link: '/promo' },
@@ -76,7 +76,7 @@ let slideInterval = null;
 const nextSlide = () => { currentSlideIndex.value = (currentSlideIndex.value + 1) % slides.value.length; };
 const prevSlide = () => { currentSlideIndex.value = (currentSlideIndex.value - 1 + slides.value.length) % slides.value.length; };
 
-// --- Logika Umum ---
+
 const formatPrice = (value) => {
   return new Intl.NumberFormat('id-ID', {
     style: 'currency',
@@ -97,7 +97,7 @@ onUnmounted(() => {
 
 <style scoped>
 .game-card-link { text-decoration: none; color: inherit; display: block; }
-/* Style untuk Hero Slider */
+
 .hero-slider { position: relative; height: 50vh; max-height: 450px; background-color: #222; color: #FAF7F3; margin-bottom: 2rem; }
 .slider-container { width: 100%; height: 100%; }
 .slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }

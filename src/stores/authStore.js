@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import router from '@/router'; // Import router untuk navigasi
+import router from '@/router'; 
 
 export const useAuthStore = defineStore('auth', {
   state: () => ({
@@ -13,7 +13,7 @@ export const useAuthStore = defineStore('auth', {
 
   actions: {
     login(credentials) {
-      // 1. Cek apakah ini adalah kredensial ADMIN
+      
       if (credentials.email === 'admin@gmail.com' && credentials.password === 'password') {
         const adminData = {
           name: 'Admin Rifqi',
@@ -23,9 +23,9 @@ export const useAuthStore = defineStore('auth', {
         this.user = adminData;
         localStorage.setItem('user', JSON.stringify(adminData));
       } else {
-        // 2. Jika bukan admin, anggap sebagai PENGGUNA BIASA
+        
         const userData = {
-          // Kita bisa gunakan bagian awal email sebagai nama panggilan
+      
           name: credentials.email.split('@')[0] || 'Pengguna',
           email: credentials.email,
           role: 'user',

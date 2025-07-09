@@ -21,17 +21,17 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
-import { useCartStore } from '@/stores/cartStore.js'; // Import cart store
+import { useCartStore } from '@/stores/cartStore.js';
 import axios from 'axios';
 
 const route = useRoute();
-const cartStore = useCartStore(); // Inisialisasi cart store
+const cartStore = useCartStore(); 
 
 const game = ref(null);
 const loading = ref(true);
 const error = ref(null);
 
-// Fungsi untuk menambahkan item ke keranjang
+
 const addToCart = () => {
   if (game.value) {
     cartStore.addItem(game.value);

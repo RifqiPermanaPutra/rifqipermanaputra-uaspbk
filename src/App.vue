@@ -10,5 +10,5 @@ import AppLayout from './components/AppLayout.vue'
 </template>
 
 <style scoped>
-/* Anda bisa menambahkan styling spesifik untuk App.vue di sini jika perlu */
+
 </style>

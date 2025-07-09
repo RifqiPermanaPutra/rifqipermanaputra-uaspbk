@@ -30,15 +30,15 @@ const authStore = useAuthStore();
 const router = useRouter();
 
 const handleLogin = () => {
-  // Panggil action login dari store
+  
   authStore.login({ email: email.value, password: password.value });
 
-  // Setelah login, periksa peran (role) dan arahkan pengguna
+  
   if (authStore.userRole === 'admin') {
-    // Jika admin, arahkan ke halaman katalog admin
+    
     router.push('/games');
   } else {
-    // Jika pengguna biasa, arahkan ke halaman beranda
+    
     router.push('/');
   }
 };
@@ -52,8 +52,8 @@ const handleLogin = () => {
   min-height: 80vh;
   padding: 1rem;
  background-image: url('/background.jpg'); 
-  background-size: cover; /* Agar gambar menutupi seluruh area */
-  background-position: center; /* Agar gambar terpusat */
+  background-size: cover; 
+  background-position: center; 
 }
 
 .login-card {
