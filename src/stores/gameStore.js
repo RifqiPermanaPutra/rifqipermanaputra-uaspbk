@@ -2,8 +2,9 @@ import { defineStore } from 'pinia';
 import { createClient } from '@supabase/supabase-js';
 
 
-const supabaseUrl = 'https://shuocqlvoecsyqpuxgfd.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNodW9jcWx2b2Vjc3lxcHV4Z2ZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIxNDg4NTEsImV4cCI6MjA2NzcyNDg1MX0.PFsZedgX_kJAiFpnrcvbkqlUM_txCVjfwj2WYejgBPQ';
+const supabaseUrl = 'https://shuocqlvoecsyqpuxgfd.supabase.co';    
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNodW9jcWx2b2Vjc3lxcHV4Z2ZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTIxNDg4NTEsImV4cCI6MjA2NzcyNDg1MX0.PFsZedgX_kJAiFpnrcvbkqlUM_txCVjfwj2WYejgBPQ';      // <-- GANTI DENGAN KUNCI ANON ANDA
+
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export const useGameStore = defineStore('game', {
@@ -33,7 +34,6 @@ export const useGameStore = defineStore('game', {
       this.loading = true;
       this.error = null;
       try {
-        // Hapus properti 'id' jika ada, karena akan digenerate otomatis
         const { id, ...gameData } = newGame;
         const { data, error } = await supabase.from('games').insert([gameData]).select();
         if (error) throw error;
